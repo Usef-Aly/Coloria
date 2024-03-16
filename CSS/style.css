@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
+header {
+  background-color: rgb(238, 238, 221);
+}
+
+.name{
+
+  color:#092635 ;
+  font-family: "Protest Riot", sans-serif;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+header button {
+  transition: 350ms color;
+}
+
+header button:hover,
+header button.active {
+  color: #fff !important ;
+}
+
+section {
+  min-height: 64.2vh;
+  background-color: #000;
+
+}
+
+.color-card {
+  height: 200px;
+}
+
+span{
+  font-weight: 600;
+  word-spacing: -2px;
+}
+
+

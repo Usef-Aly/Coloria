@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="RGB Guessing">
+    <title>Coloria</title>
+      
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+  </head>
+  <body class="bg">
+    <div class="wrapper vh-100">
+      <header class="pt-5 pb-3 d-flex flex-column align-items-center gap-3">
+        <h1 class="text-uppercase name">Coloria</h1>
+        <h2 id="rgbSyntax">rgb (255, 255, 255)</h2>
+        <div class="button-group">
+          <button id="easyBtn" class="btn btn-dark border-dark-subtle active  px-5">
+            Easy
+          </button>
+          <button id="hardBtn" class="btn btn-dark border-dark-subtle  px-5">
+            Hard
+          </button>
+        </div>
+        <span>Made by Usef Aly </span>
+      </header>
+
+      <section class=" py-4">
+        <button id="getColorsBtn" class="btn btn-dark d-block mx-auto">
+          GET COLORS
+        </button>
+        <div id="colorsContainer" class="container "></div>
+      </section>
+      
+    </div>
+    <!-- ! Js Main File   -->
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
